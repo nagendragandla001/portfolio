@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #3b82f6;
+  --secondary: #8b5cf6;
+  --accent: #06b6d4;
 }
 
 @theme inline {
@@ -22,5 +25,164 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+@media (prefers-color-scheme: dark) {
+  .card-hover:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3),
+      0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Animated gradient background for hero */
+.hero-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero-gradient {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  }
+}
+
+/* Skill badge animation */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Blog content styles */
+.blog-content h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  color: #111827;
+}
+
+.blog-content h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: #111827;
+}
+
+.blog-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+  color: #111827;
+}
+
+.blog-content p {
+  color: #374151;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.blog-content strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.blog-content ul li {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-content code {
+  padding: 0.125rem 0.5rem;
+  background-color: #f3f4f6;
+  color: #9333ea;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-family: ui-monospace, monospace;
+}
+
+.blog-content pre {
+  background-color: #1f2937;
+  color: #f3f4f6;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid #374151;
+}
+
+.blog-content pre code {
+  background-color: transparent;
+  color: #f3f4f6;
+  padding: 0;
+}
+
+.blog-content a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  .blog-content h1,
+  .blog-content h2,
+  .blog-content h3,
+  .blog-content strong {
+    color: #ffffff;
+  }
+
+  .blog-content p,
+  .blog-content ul {
+    color: #d1d5db;
+  }
+
+  .blog-content code {
+    background-color: #1f2937;
+    color: #c084fc;
+  }
+
+  .blog-content a {
+    color: #60a5fa;
+  }
+}
+
