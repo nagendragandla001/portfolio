@@ -35,7 +35,7 @@ const experiences = [
   },
   {
     title: "Frontend Team Lead",
-    company: "Moniepoint Group",
+    company: "Moniepoint Inc.",
     period: "August 2024 - February 2025",
     location: "Bengaluru, Karnataka, India",
     description:
