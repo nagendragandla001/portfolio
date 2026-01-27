@@ -94,7 +94,7 @@ export function Resume() {
                   Technical Expertise
                 </h4>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  React, Angular, TypeScript, Micro-frontends
+                  Next.js, React, Angular, TypeScript, Micro-frontends
                 </p>
               </div>
             </div>

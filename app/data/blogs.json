@@ -9,7 +9,8 @@
     "views": "7.5K",
     "comments": 102,
     "tags": ["AI", "Fullstack", "Future of Web", "AI-Powered Dev", "Frontend Evolution"],
-    "slug": "future-of-frontend-ai-fullstack"
+    "slug": "future-of-frontend-ai-fullstack",
+    "contentFile": "future-of-frontend-ai-fullstack.md"
   },
   {
     "id": "2",
@@ -21,7 +22,8 @@
     "views": "6.8K",
     "comments": 89,
     "tags": ["MCP", "AI", "Context Protocol", "UI Trends", "LLM Integration"],
-    "slug": "mcp-ui-trends-ai-integration"
+    "slug": "mcp-ui-trends-ai-integration",
+    "contentFile": "mcp-ui-trends-ai-integration.md"
   },
   {
     "id": "3",
@@ -30,8 +32,6 @@
     "category": "Angular",
     "readTime": "12 min read",
     "date": "Jan 20, 2026",
-    "views": "5.2K",
-    "comments": 73,
     "tags": ["Angular", "AngularJS", "Migration", "Standalone Components"],
     "slug": "angular-evolution-angularjs-to-angular20",
     "contentFile": "angular-evolution.md"
@@ -46,7 +46,8 @@
     "views": "2.3K",
     "comments": 24,
     "tags": ["Micro-frontends", "Webpack", "React", "Architecture"],
-    "slug": "scalable-micro-frontends-module-federation"
+    "slug": "scalable-micro-frontends-module-federation",
+    "contentFile": "scalable-micro-frontends-module-federation.md"
   },
   {
     "id": "5",
@@ -58,7 +59,8 @@
     "views": "3.1K",
     "comments": 42,
     "tags": ["Next.js", "SSR", "SSG", "Performance"],
-    "slug": "ssr-vs-ssg-nextjs-rendering-strategy"
+    "slug": "ssr-vs-ssg-nextjs-rendering-strategy",
+    "contentFile": "ssr-vs-ssg-nextjs-rendering.md"
   },
   {
     "id": "6",
@@ -70,7 +72,8 @@
     "views": "1.8K",
     "comments": 18,
     "tags": ["Design Systems", "Component Library", "Storybook"],
-    "slug": "design-systems-zero-to-production"
+    "slug": "design-systems-zero-to-production",
+    "contentFile": "design-systems-zero-to-production.md"
   },
   {
     "id": "7",
@@ -82,7 +85,8 @@
     "views": "2.7K",
     "comments": 31,
     "tags": ["React", "WebSocket", "D3.js", "Real-time"],
-    "slug": "real-time-data-visualization-react-websockets"
+    "slug": "real-time-data-visualization-react-websockets",
+    "contentFile": "realtime-data-visualization-react-websockets.md"
   },
   {
     "id": "8",
@@ -94,7 +98,8 @@
     "views": "4.2K",
     "comments": 56,
     "tags": ["React", "Performance", "Optimization", "Best Practices"],
-    "slug": "optimizing-react-performance-beyond-memo"
+    "slug": "optimizing-react-performance-beyond-memo",
+    "contentFile": "optimizing-react-performance-beyond-memo.md"
   },
   {
     "id": "9",
@@ -106,7 +111,8 @@
     "views": "3.5K",
     "comments": 47,
     "tags": ["TypeScript", "React", "Generics", "Type Safety"],
-    "slug": "typescript-advanced-patterns-react"
+    "slug": "typescript-advanced-patterns-react",
+    "contentFile": "typescript-advanced-patterns-react.md"
   },
   {
     "id": "10",
@@ -118,7 +124,8 @@
     "views": "2.1K",
     "comments": 29,
     "tags": ["Accessibility", "ARIA", "WCAG", "Inclusive Design"],
-    "slug": "accessible-web-applications-aria"
+    "slug": "accessible-web-applications-aria",
+    "contentFile": "accessible-web-applications-aria.md"
   },
   {
     "id": "11",
@@ -130,7 +137,8 @@
     "views": "5.1K",
     "comments": 68,
     "tags": ["Redux", "Zustand", "Context API", "State Management"],
-    "slug": "state-management-redux-zustand-context-api"
+    "slug": "state-management-redux-zustand-context-api",
+    "contentFile": "state-management-redux-zustand-context.md"
   },
   {
     "id": "12",
@@ -142,7 +150,8 @@
     "views": "3.8K",
     "comments": 41,
     "tags": ["Playwright", "Jest", "Testing", "Quality Assurance"],
-    "slug": "testing-strategies-modern-react-applications"
+    "slug": "testing-strategies-modern-react-applications",
+    "contentFile": "testing-strategies-modern-react.md"
   },
   {
     "id": "13",
@@ -154,6 +163,7 @@
     "views": "4.5K",
     "comments": 52,
     "tags": ["CSS-in-JS", "Tailwind CSS", "Styling", "Performance"],
-    "slug": "css-in-js-vs-tailwind-css-comparison"
+    "slug": "css-in-js-vs-tailwind-css-comparison",
+    "contentFile": "css-in-js-vs-tailwind-comparison.md"
   }
 ]

@@ -98,14 +98,14 @@ export default function BlogPostPage() {
                 <Clock className="w-4 h-4" />
                 <span>{blog.readTime}</span>
               </div>
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <Eye className="w-4 h-4" />
                 <span>{blog.views} views</span>
               </div>
               <div className="flex items-center gap-2">
                 <MessageSquare className="w-4 h-4" />
                 <span>{blog.comments} comments</span>
-              </div>
+              </div> */}
               <button className="ml-auto flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
                 <Share2 className="w-4 h-4" />
                 Share
