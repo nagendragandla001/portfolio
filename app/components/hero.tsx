@@ -36,15 +36,15 @@ export function Hero() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.8 }}
-        className="absolute top-8 right-8 z-20"
+        className="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 z-20"
       >
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 text-white shadow-lg">
-          <span className="relative flex h-3 w-3">
+        <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-3 sm:py-2 md:px-4 md:py-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 text-white shadow-lg">
+          <span className="relative flex h-2 w-2 sm:h-2.5 sm:w-2.5 md:h-3 md:w-3">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 sm:h-2.5 sm:w-2.5 md:h-3 md:w-3 bg-white"></span>
           </span>
-          <span className="text-sm font-semibold">
-            Available for opportunities
+          <span className="text-xs sm:text-sm font-semibold whitespace-nowrap">
+            Available
           </span>
         </div>
       </motion.div>

@@ -46,7 +46,7 @@ export function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-20 px-6">
+    <section id="contact" className="py-16 px-6">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -65,7 +65,7 @@ export function Contact() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {contactMethods.map((method, index) => (
             <motion.a
               key={method.label}
