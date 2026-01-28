@@ -164,7 +164,7 @@ export function Resume() {
                   link.click();
                   document.body.removeChild(link);
                 }}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:cursor-pointer hover:shadow-lg hover:scale-105 transition-all"
               >
                 <svg
                   className="w-5 h-5"
