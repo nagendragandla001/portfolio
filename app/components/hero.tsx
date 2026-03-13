@@ -251,7 +251,7 @@ export function Hero() {
           >
             Building scalable, SEO-friendly, and high-performance web
             applications with 12+ years of experience in React, Next.js,
-            Angular, and modern frontend architectures.
+            Angular, Node.js, and modern frontend architectures.
           </motion.p>
 
           <motion.div
