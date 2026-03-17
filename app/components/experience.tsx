@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    title: "Lead Front-end Developer",
+    title: "Lead Fullstack Developer & Architect",
     company: "American Airlines",
     period: "April 2025 - Present",
     location: "Fort Worth, Texas, United States",
@@ -79,7 +79,7 @@ const experiences = [
     ],
   },
   {
-    title: "Lead Front-end Developer",
+    title: "Lead Fullstack Developer",
     company: "BeepKart",
     period: "Dec 2022 - July 2024",
     location: "Bengaluru, Karnataka, India",
