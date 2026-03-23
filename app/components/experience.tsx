@@ -114,11 +114,11 @@ const experiences = [
   },
   {
     title: "Software Development Engineer - III",
-    company: "BetterPlace Safety Solutions (Acquired entity from OLX)",
+    company: "OLX",
     period: "Dec 2019 - Dec 2022",
     location: "Bengaluru, Karnataka, India",
     description:
-      "Developed frontend applications for BetterPlace, a leading workforce management platform providing end-to-end digital solutions for blue-collar workforce hiring, onboarding, compliance, payroll, and upskilling. Built MyRocket (Employer POD) connecting employers with job seekers for seamless hiring and workforce management.",
+      "Developed frontend applications for OLX, a leading workforce management platform providing end-to-end digital solutions for blue-collar workforce hiring, onboarding, compliance, payroll, and upskilling. Built MyRocket (Employer POD) connecting employers with job seekers for seamless hiring and workforce management.",
     achievements: [
       "Developed and maintained frontend applications for MyRocket using Next.js, React, and Antd",
       "Implemented server-side rendering (SSR) and client-side optimizations for enhanced performance and SEO",
