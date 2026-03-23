@@ -1,5 +1,18 @@
 [
   {
+    "id": "14",
+    "title": "Building a Digital Supply Chain for Vehicle Marketplaces",
+    "description": "How we built a comprehensive supply chain management system at BeepKart, transforming traditional vehicle procurement into a data-driven, transparent process with real-time tracking and analytics.",
+    "category": "Architecture",
+    "readTime": "14 min read",
+    "date": "Jan 10, 2025",
+    "views": "1.2K",
+    "comments": 15,
+    "tags": ["Supply Chain", "E-Commerce", "Next.js", "Real-time", "Analytics"],
+    "slug": "supply-chain-management-vehicle-marketplace",
+    "contentFile": "supply-chain-management-vehicle-marketplace.md"
+  },
+  {
     "id": "1",
     "title": "The Future of Frontend: AI-Powered Development & Fullstack Evolution",
     "description": "How AI is reshaping frontend development, the growing importance of fullstack capabilities, and why modern developers need to embrace both paradigms.",
