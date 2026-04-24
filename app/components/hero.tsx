@@ -240,7 +240,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4"
           >
-            Lead Fullstack Developer & Architect
+            Lead UI Developer & Architect
           </motion.p>
 
           <motion.p

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    title: "Lead Fullstack Developer & Architect",
+    title: "Lead UI Developer & Architect",
     company: "American Airlines",
     period: "April 2025 - Present",
     location: "Fort Worth, Texas, United States",
@@ -12,9 +12,8 @@ const experiences = [
     achievements: [
       "Coordinate with the Business and Product teams for feature discussions, requirement clarifications, and planning",
       "Build and maintain web applications using Next.js and React, ensuring high performance and scalability",
-      "Design and develop scalable backend services using Node.js to process and expose airline fare data and pricing rules received from Airline Tariff Publishing Company (ATPCO) feeds",
-      "Implement high-performance data access layers using Azure Cosmos DB, designing efficient data models and partitioning strategies to support large volumes of route pricing and fare rule queries",
-      "Work closely with data engineering teams to integrate fare datasets processed in Databricks and expose them through scalable Node.js APIs for downstream airline applications",
+      "Design and develop scalable services to process and expose airline fare data and pricing rules received from Airline Tariff Publishing Company (ATPCO) feeds",
+      "Work closely with data engineering teams to integrate fare datasets processed in Databricks for downstream airline applications",
       "Design and build reusable, accessible, and themeable UI components using ShadCN and Tailwind",
       "Implement complex data grids and tables using AG Grid, ensuring efficient rendering, filtering, and export functionality",
       "Developing more reusable components using React and React Hooks",
@@ -33,8 +32,6 @@ const experiences = [
       "Next.js",
       "React",
       "TypeScript",
-      "Node.js",
-      "Azure Cosmos DB",
       "Databricks",
       "ShadCN UI",
       "AG Grid",

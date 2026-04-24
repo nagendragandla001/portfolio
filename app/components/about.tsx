@@ -33,8 +33,8 @@ export function About() {
           >
             <div className="space-y-4 text-lg text-gray-600 dark:text-gray-300">
               <p>
-                I'm a <strong>Lead Fullstack Developer & Architect</strong> with
-                deep expertise in frontend architecture, micro-frontends, design
+                I'm a <strong>Lead UI Developer & Architect</strong> with deep
+                expertise in frontend architecture, micro-frontends, design
                 systems, and SEO-driven development. I specialize in building
                 scalable, performant web applications that deliver exceptional
                 user experiences.
